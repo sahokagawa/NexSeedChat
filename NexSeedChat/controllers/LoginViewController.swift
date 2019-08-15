@@ -53,3 +53,10 @@ extension LoginViewController: GIDSignInDelegate, GIDSignInUIDelegate {
     
     
 }
+
+
+//self  自分のことこの場合
+//LoginViewControllerのこと
+//LoginViewControllerが持ってるperformSegueを使ってね
+//selfないと、あたかも自分がAuthって思っちゃうと、エラーでる
+//in とかコールバック関数って呼ばれるもの　　fix出してくれる
